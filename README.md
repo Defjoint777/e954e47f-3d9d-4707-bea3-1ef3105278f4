@@ -78,13 +78,23 @@ Each pair in A × B is mapped to a unique value in C.
 
 1. **Enumerate the Cartesian Product**:  
 Let A = {a, b, c}, B = {1, 2}. Write out all elements of A × B.
+a*1 a*2 || b*1 b*2 || c*1 c*2
 
-2. **Grid Drawing**:  
+3. **Grid Drawing**:  
 Draw the Cartesian product A × B from task 1 as a table or grid, with A along the vertical axis and B along the horizontal axis.
+  1    2
+a  a1  a2
+b  b1  b2
+c  c1  c2
 
-3. **Define a Function on a Cartesian Product**:  
+4. **Define a Function on a Cartesian Product**:  
 Let A = {0, 1}, B = {0, 1}, and define a function f: A × B → N by:
 ```
+f(a,b)= 0*2 +0
+f(a,b)=1*2+1
+f(a,b)=0*2+1
+f(a,b)=1*2+0
+--------
 f(a, b) = a * 2 + b
 ```
 List the output of all possible pairs.
@@ -92,10 +102,15 @@ List the output of all possible pairs.
 ## 3) Questions
 1. Why is the **order** of elements in a tuple important in the Cartesian product?
 2. Can you think of real-world examples where data naturally forms **pairs**?
-3. What changes if you consider B × A instead of A × B?
-4. How would you describe a function of three inputs using Cartesian products?
-5. Take a look at task 3 once again: What kind of values do you get? Do these resemble anything familiar from binary numbers?
-
+   (Barcode/Product),(ID/Person)...
+4. What changes if you consider B × A instead of A × B?
+   Exmpl: B=[1,2,3] A=[a,b,c]
+   f(B*A)=1*a=1a wenn man das in ASCII oder binär betrachten würde sind die ergäbnise unterschiedlich.
+   f(A*B)=a*1=a1
+6. How would you describe a function of three inputs using Cartesian products?
+   i would describe this kind of function as a function of 3 inputs whose domain of 3 sets is cartesian produkt to describe fourth set  
+8. Take a look at task 3 once again: What kind of values do you get? Do these resemble anything familiar from binary numbers?
+  
 ---
 
 ## 4) Final Advice
